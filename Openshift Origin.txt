@@ -1,0 +1,81 @@
+       oc login -u system:admin
+  117  oc delete pod/<name of pod> --grace-period=0
+  118  oc delete pod/mlbparks-1-zcjhr --grace-period=0
+  119  oc delete pod/mlbparks-1-deploy --grace-period=0
+  120  oc login -u system:admin
+  121  oc new-app openshift/nodejs-010-centos7~https://github.com/openshift/nodejs-ex.git
+  122  oc status
+
+	oc get all
+  130  oc projects sample
+  131  oc projects
+  132  oc project sample
+  133  oc get pods
+  134  oc new-app nodejs-010-centos7~https://github.com/openshift/nodejs-ex.git
+  135  oc new-app sample/nodejs-010-centos7~https://github.com/openshift/nodejs-ex.git
+  136  oc new-app openshift/nodejs-010-centos7~https://github.com/openshift/nodejs-ex.git
+  137  oc status
+  138  oc get all
+  139  oc delete builds/nodejs-ex-1 is/nodejs-ex  dc/nodejs-ex svc/nodejs-ex  po/nodejs-ex-1-build
+  140  oc new-app ssh://APKAID2BUZW7A7672VRA@git-codecommit.ap-south-1.amazonaws.com/v1/repos/blockchain-api
+  141  oc new-app sample/ssh://APKAID2BUZW7A7672VRA@git-codecommit.ap-south-1.amazonaws.com/v1/repos/blockchain-api
+  142  oc new-app -h
+  143  oc new-app nodejs-010-centos7~https://hemant.s+1-at-898980891534:R%2Fol66DZJ1g0wM5C0OEtpPKI4ZsGEVjxQXuNeTfay3s%3D@git-codecommit.ap-south-1.amazonaws.com/v1/repos/blockchain-api
+  144  oc new-app sample/nodejs-010-centos7~https://hemant.s+1-at-898980891534:R%2Fol66DZJ1g0wM5C0OEtpPKI4ZsGEVjxQXuNeTfay3s%3D@git-codecommit.ap-south-1.amazonaws.com/v1/repos/blockchain-api
+chmod 777 blockchain-api/
+  192  git clone ssh://APKAID2BUZW7A7672VRA@git-codecommit.ap-south-1.amazonaws.com/v1/repos/NoClaimWebUI
+  193  git clone ssh://APKAID2BUZW7A7672VRA@git-codecommit.ap-south-1.amazonaws.com/v1/repos/blockchain-api
+  194  oc new-app ssh://APKAID2BUZW7A7672VRA@git-codecommit.ap-south-1.amazonaws.com/v1/repos/blockchain-api
+  195  oc get all
+  196  oc delete bc/noclaimwebui builds/noclaimwebui-1 is/noclaimwebui dc/noclaimwebui  svc/noclaimwebui po/noclaimwebui-1-build
+  197  oc new-app ssh://APKAID2BUZW7A7672VRA@git-codecommit.ap-south-1.amazonaws.com/v1/repos/blockchain-api
+  198  oc new-app nodejs-010-centos7~ssh://APKAID2BUZW7A7672VRA@git-codecommit.ap-south-1.amazonaws.com/v1/repos/blockchain-api
+  199  oc status
+  200  git clone ssh://APKAID2BUZW7A7672VRA@git-codecommit.ap-south-1.amazonaws.com/v1/repos/blockchain-api
+  201  ll
+  202  rm -f blockchain-api
+  203  rm -r blockchain-api
+  204  ll
+  205  cd blockchain-api/
+  206  ll
+  207  cd smartContract/
+  208  ll
+  209  cd ..
+  210  cat package.json
+  211  wq
+  212  ls
+  213  cd ..
+  214  exit
+  215  ll
+  216  cd blockchain-api/
+  217  ll
+  218  history
+  219  cd ..
+  220    192  git clone ssh://APKAID2BUZW7A7672VRA@git-codecommit.ap-south-1.amazonaws.com/v1/repos/NoClaimWebUI
+  221  git clone ssh://APKAID2BUZW7A7672VRA@git-codecommit.ap-south-1.amazonaws.com/v1/repos/NoClaimWebUI
+  222  ll
+  223  exit
+  224  ll
+  225  cd ..
+  226  cd ~
+  227   oc new-app ssh://APKAID2BUZW7A7672VRA@git-codecommit.ap-south-1.amazonaws.com/v1/repos/NoClaimWebUI
+  228  cd ..
+  229  exit
+  230  34.240.20.188
+  231  git
+  232  git clone ssh://APKAID2BUZW7A7672VRA@git-codecommit.ap-south-1.amazonaws.com/v1/repos/blockchain-api
+  233  ls
+  234  cd blockchain-api/
+  235  ls
+ 236  ls -l
+  237  cd ..
+  238  git clone ssh://APKAID2BUZW7A7672VRA@git-codecommit.ap-south-1.amazonaws.com/v1/repos/NoClaimWebUI
+  239  git clone ssh://APKAID2BUZW7A7672VRA@git-codecommit.eu-west-1.amazonaws.com/v1/repos/ar-finance
+
+
+
+# oc new-app openshift/nodejs-010-centos7~https://APKAIXUGKPMSMP5RNRXA@github.com/openshift/nodejs-ex.git
+
+ oc new-app ssh://APKAID2BUZW7A7672VRA@git-codecommit.ap-south-1.amazonaws.com/v1/repos/NoClaimWebUI
+
+APKAIXUGKPMSMP5RNRXA
